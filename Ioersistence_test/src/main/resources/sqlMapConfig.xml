@@ -1,0 +1,13 @@
+<configuration>
+
+    <dataScoure>
+        <!--数据库连接信息-->
+        <property name="driverClass" value="com.mysql.jdbc.Drive"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://192.168.10.150:3306/mytest?McharacterEncoding=utf8&amp;useSSL=false"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="123456"></property>
+    </dataScoure>
+
+    <!--获取mapper.xml路径-->
+    <mapper resource="mapper.xml"></mapper>
+</configuration>
